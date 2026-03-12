@@ -33,6 +33,7 @@
         <div class="nav-links" id="navMenu">
           <a href="#about">About</a>
           <a href="#expertise">Expertise</a>
+          <a href="#stack">Stack</a>
           <a href="#experience">Experience</a>
           <a href="#credentials">Toolbox</a>
           <a href="#projects">Projects</a>
@@ -164,6 +165,81 @@
               <li>n8n automation for workflows</li>
               <li>Runbook-driven response rituals</li>
             </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack section--alt">
+        <div class="section-heading">
+          <p class="eyebrow">Stack & methods</p>
+          <h2>Reference architectures, automation targets, and reliability scorecards.</h2>
+          <p>
+            These are the platforms and practices I lean on when designing resilient delivery systems—from Terraform-managed
+            infrastructure to observability loops that keep incident response predictable.
+          </p>
+        </div>
+        <div class="stack-grid">
+          <article class="stack-card">
+            <h3>Cloud & Infrastructure</h3>
+            <p>Design hybrid footprints that mix public cloud elasticity with on-prem control.</p>
+            <ul class="tag-list">
+              <li>Google Cloud Platform · GKE · Cloud Run</li>
+              <li>AWS · EKS · EC2 autoscaling</li>
+              <li>Biznet Gio · private cloud</li>
+              <li>VPN mesh · VPC peering · load balancers</li>
+            </ul>
+          </article>
+          <article class="stack-card">
+            <h3>Automation & Delivery</h3>
+            <p>Every change travels through automated guardrails before it touches production.</p>
+            <ul class="tag-list">
+              <li>Terraform · Terragrunt modules</li>
+              <li>Jenkins · GitHub Actions · Dokploy</li>
+              <li>GitHub · GitLab · Bitbucket</li>
+              <li>n8n workflows · Bash/Python tooling</li>
+            </ul>
+          </article>
+          <article class="stack-card">
+            <h3>Runtime & Data</h3>
+            <p>Container and data platforms tuned for fast rollouts and sane maintenance.</p>
+            <ul class="tag-list">
+              <li>Docker · Kubernetes · Helm</li>
+              <li>PostgreSQL · MySQL · MongoDB</li>
+              <li>Dokploy PaaS · serverless APIs</li>
+              <li>Terraform state backends & secrets</li>
+            </ul>
+          </article>
+          <article class="stack-card">
+            <h3>Observability & Collaboration</h3>
+            <p>Feedback loops that keep humans informed and systems hardened.</p>
+            <ul class="tag-list">
+              <li>Prometheus · Grafana · Uptime Kuma</li>
+              <li>Uptime Robot · Alertmanager</li>
+              <li>Metabase · Mattermost · Listmonk</li>
+              <li>Confluence · Bookstack documentation</li>
+            </ul>
+          </article>
+        </div>
+        <div class="scorecard-grid" aria-label="Operational scorecard">
+          <article class="scorecard-card">
+            <p class="label">Deployment frequency</p>
+            <p class="value">20+/week</p>
+            <p class="detail">GitHub Actions & Jenkins orchestrate multi-env releases.</p>
+          </article>
+          <article class="scorecard-card">
+            <p class="label">Lead time for change</p>
+            <p class="value">&lt; 1 day</p>
+            <p class="detail">Trunk-based development with automated integration tests.</p>
+          </article>
+          <article class="scorecard-card">
+            <p class="label">Change failure rate</p>
+            <p class="value">&lt; 5%</p>
+            <p class="detail">Smoke tests, canary releases, and scripted rollbacks.</p>
+          </article>
+          <article class="scorecard-card">
+            <p class="label">MTTR improvement</p>
+            <p class="value">35% faster</p>
+            <p class="detail">Prometheus, Grafana, and n8n playbooks shorten resolution.</p>
           </article>
         </div>
       </section>
