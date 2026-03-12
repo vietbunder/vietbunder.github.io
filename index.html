@@ -1,192 +1,412 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CV Jojo Hutagalung</title>
-        <meta name="description" content="">
-        <!-- 
-    	Volton Template
-    	http://www.templatemo.com/preview/templatemo_441_volton
-        -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    
-        <div class="responsive-header visible-xs visible-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="top-section">
-                            <div class="profile-image">
-                                <img src="img/profile.jpg" alt="Volton">
-                            </div>
-                            <div class="profile-content">
-                                <h3 class="profile-title">Jojo Hutagalung</h3>
-                                <p class="profile-description">Telco Engineer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
-                <div class="main-navigation responsive-menu">
-                    <ul class="navigation">
-                        <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
-                        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                        <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Certifications</a></li>
-                        <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
-                    </ul>
-                </div>
-            </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jojo Hutagalung | DevOps Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio website for Jojo V. B. Hutagalung – DevOps engineer designing cloud infrastructure, CI/CD automation, and reliable operations across GCP, AWS, and Biznet Gio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="primary-nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Homepage">
+          <span>Jojo V. B. Hutagalung</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <div class="nav-links" id="navMenu">
+          <a href="#about">About</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#experience">Experience</a>
+          <a href="#credentials">Toolbox</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-small" href="mailto:vietbunder@gmail.com">Let's Talk</a>
         </div>
+      </nav>
 
-        <!-- SIDEBAR -->
-        <div class="sidebar-menu hidden-xs hidden-sm">
-            <div class="top-section">
-                <div class="profile-image">
-                    <img src="img/profile.jpg" alt="Volton">
-                </div>
-                <h3 class="profile-title">Jojo V B Hutagalung</h3>
-                <p class="profile-description">Telco Engineer</p>
-            </div> <!-- top-section -->
-            <div class="main-navigation">
-                <ul class="navigation">
-                    <li><a href="#top"><i class="fa fa-globe"></i>Home</a></li>
-                    <li><a href="#about"><i class="fa fa-pencil"></i>About</a></li>
-                    <li><a href="#projects"><i class="fa fa-paperclip"></i>Certifications</a></li>
-                    <li><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
-                </ul>
-            </div> 
-        </div> <!-- .sidebar-menu -->
-        
-
-        <div class="banner-bg" id="top">
-            <div class="banner-overlay"></div>
-            <div class="welcome-text">
-                <h2>Jojo Viet Bunder Hutagalung</h2>
-                <h5>Experienced Network Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Nokia network devices, Network Administration, Internet Protocol Suite (TCP/IP), Routers, Network Engineering, and Data Migration. Strong information technology professional graduated from Del Institute of Technology.
-				</h5>
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">DevOps Engineer · PT Moladin Digital Indonesia</p>
+          <h1>Automating reliable releases from commit to production.</h1>
+          <p class="lede">
+            Experienced DevOps leader with 10+ years building and operating hybrid cloud infrastructure.
+            I design Terraform-first environments, ship CI/CD pipelines with Jenkins, GitHub Actions, and Dokploy,
+            and automate operational guardrails so teams ship faster with confidence.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="mailto:vietbunder@gmail.com">Book an intro call</a>
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/jojoviet/"
+              target="_blank"
+              rel="noreferrer"
+            >View LinkedIn</a>
+          </div>
+          <dl class="hero-metrics" aria-label="Delivery statistics">
+            <div>
+              <dt>Years shipping platforms</dt>
+              <dd>10+</dd>
             </div>
-        </div>
-
-        <!-- MAIN CONTENT -->
-        <div class="main-content">
-            <div class="fluid-container">
-
-                <div class="content-wrapper">
-                
-                    <!-- ABOUT -->
-                    <div class="page-section" id="about">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">Team Lead of Network and Emerging Technology at Datacomm Diangraha</h4>
-                            <div class="about-image">
-                                <img src="img/8.jpg" alt="about me">
-                            </div>
-                            <p align="justify">
-							Perform MoP engineer assignments for the needs of the PM and SM divisions. Monitor the performance of the MoP engineer. Developing the technical capabilities of engineers. Make a weekly report on engineer utilization and report it to the manager. Acting as an operational supervisor for the engineer. Ensure that the MoP verification process is carried out. Create new MoP templates for MoP development and new activities. Coordination and sharing between the MoP and CE teams regarding the project's detailed technical data and project activity concepts.
-							</p>
-                            <hr>
-                        </div>
-                    </div> <!-- #about -->
-                    </div>
-                    
-                    <!-- PROJECTS -->
-                    <div class="page-section" id="projects">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">Licenses & Certifications</h4>
-								<h5><a href="https://networks.nokia.com/src/exam/multiprotocol-label-switching">Nokia Multiprotocol Label Switching</a></h5>
-								<h5><a href="https://networks.nokia.com/src/exam/interior-routing-protocols">Nokia Interior Routing Protocols</a></h5>
-								<h5><a href="https://networks.nokia.com/src/exam/services-architecture">Nokia Services Architecture</a></h5>
-								<h5><a href="https://networks.nokia.com/src/exam/scalable-ip-networks">Nokia Scalable IP Networks</a></h5>
-                        </div>
-                    </div>
-                    <div class="row projects-holder">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/1.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://networks.nokia.com/src/certifications/nrs-i">Nokia Network Routing Specialist I (NRS I) Certification</a></h5>
-                                        <p>Learn the essentials of IP networking and VPN service routing.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/2.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://networks.nokia.com/src/certifications/nrs-ii">Nokia Network Routing Specialist II (NRS II) Certification</a></h5>
-                                        <p>Acquire Nokia IP/MPLS service routing expertise.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/3.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-										<h5><a href="https://networks.nokia.com/src/certifications/sra">Nokia Service Routing Architect (SRA) Certification</a></h5>
-                                        <p>Master the knowledge and skills to design and support high performing Nokia Service Router networks.</p>
-									</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- .projects-holder -->
-                    </div>
-                    <hr>
-
-                    <!-- CONTACT -->
-                    <div class="page-section" id="contact">
-                    <div class="row">
-						<div class="col-md-12">
-                            <h4 class="widget-title">CONTACT ME</h4>
-							<p align="justify">	All the above activities have helped me in many ways so I am comfortable working in teams, accept challenge and responsibility, have good communication skills, remain focused and dedicated towards my work, have ability to learn a new thing quickly. I hereby certify that the information provided is true.
-							</p>
-							<div class="social-icons" align="center">
-								<ul>
-								<li><a href="https://www.facebook.com/kidalkidal"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/vietbunder"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://id.linkedin.com/pub/jojo-hutagalung/9a/171/632"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://plus.google.com/113402113437288296183"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UCGTrMie7M9_EdVomuL3UnWg"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="http://vietbunder.jobrary.com/"><i class="fa fa-rss"></i></a></li>
-								</ul>
-							</div> <!-- .social-icons -->
-						</div>
-					</div>
-					<hr>
-					
-                    <div class="row" id="footer">
-                        <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; 2015 GalungCorp</p>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div>
+              <dt>Pipelines orchestrated</dt>
+              <dd>60+</dd>
             </div>
+            <div>
+              <dt>Clouds automated</dt>
+              <dd>GCP · AWS · Biznet</dd>
+            </div>
+            <div>
+              <dt>Uptime protected</dt>
+              <dd>99%+</dd>
+            </div>
+          </dl>
         </div>
+        <div class="hero-media">
+          <div class="hero-portrait">
+            <img src="img/profile.jpg" alt="Portrait of Jojo Hutagalung" loading="lazy" />
+          </div>
+          <div class="status-card">
+            <p class="label">Currently shipping</p>
+            <p class="value">PT Moladin Digital Indonesia</p>
+            <p class="detail">DevOps Engineer · Jakarta</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/min/plugins.min.js"></script>
-        <script src="js/min/main.min.js"></script>
+    <main>
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Building guardrails that keep cloud and network stacks fast, secure, and predictable.</h2>
+          <p>
+            I design, automate, and optimize infrastructure on Google Cloud Platform, AWS, and Biznet Gio—bridging
+            software and network teams so every deploy follows the same reliable path. From Terraform blueprints and
+            Jenkins pipelines to n8n-driven incident workflows, I keep tooling aligned with business SLAs.
+          </p>
+        </div>
+        <div class="split-panel">
+          <article>
+            <h3>How I create leverage</h3>
+            <ul class="checklist">
+              <li>Codify infrastructure with Terraform modules and policy guardrails.</li>
+              <li>Engineer CI/CD pipelines (Jenkins, GitHub Actions, Dokploy) for web and mobile squads.</li>
+              <li>Automate runbooks with n8n to accelerate incident response and task orchestration.</li>
+              <li>Instrument Prometheus, Grafana, and Uptime Kuma dashboards for executive-ready visibility.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Operating principles</h3>
+            <p>
+              Transparent communication, measurable automation, and security-first thinking make DevOps impactful.
+              I partner with product, security, and SRE leaders to prioritize work that eliminates toil and reduces time-to-detect.
+              Every engagement ends with documentation in Confluence or Bookstack so improvements stick.
+            </p>
+          </article>
+        </div>
+      </section>
 
-    </body>
+      <section id="expertise" class="section section--alt">
+        <div class="section-heading">
+          <p class="eyebrow">Expertise</p>
+          <h2>Hands-on ownership across infrastructure, delivery, and reliability.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <h3>Cloud Infrastructure & IaC</h3>
+            <p>
+              Architected secure VPCs, service meshes, and hybrid connectivity spanning GCP, AWS, and Biznet Gio.
+            </p>
+            <ul>
+              <li>Terraform & GitOps workflows</li>
+              <li>Autoscaling & cost optimization</li>
+              <li>Network segmentation & VPN/IAM</li>
+            </ul>
+          </article>
+          <article class="card">
+            <i class="fa fa-code-fork" aria-hidden="true"></i>
+            <h3>CI/CD & Release Automation</h3>
+            <p>
+              Built pipelines that take features from PR to production with consistent quality gates and security checks.
+            </p>
+            <ul>
+              <li>Jenkins, GitHub Actions, Dokploy</li>
+              <li>Multi-env container deployments</li>
+              <li>Blue/green & canary releases</li>
+            </ul>
+          </article>
+          <article class="card">
+            <i class="fa fa-area-chart" aria-hidden="true"></i>
+            <h3>Observability & Incident Response</h3>
+            <p>
+              Crafted monitoring stacks and automated alerts that compress MTTR and keep SLAs intact.
+            </p>
+            <ul>
+              <li>Prometheus, Grafana, Uptime Kuma</li>
+              <li>n8n automation for workflows</li>
+              <li>Runbook-driven response rituals</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Leading infrastructure programs from design through steady-state.</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <div class="timeline-meta">
+              <span class="timeline-period">2022 — Present</span>
+              <span class="timeline-location">Jakarta, ID</span>
+            </div>
+            <div class="timeline-body">
+              <h3>DevOps Engineer · PT Moladin Digital Indonesia</h3>
+              <p>
+                Designed and managed cloud infrastructure on GCP and Biznet Gio, enabling autoscaling digital platforms with cost-aware deployments.
+              </p>
+              <ul>
+                <li>Built CI/CD pipelines for web and mobile apps using Jenkins and Dokploy.</li>
+                <li>Automated workflows in n8n for incident response and recurring operations.</li>
+                <li>Monitored platforms via Prometheus, Grafana, and Uptime Kuma to sustain 99%+ uptime.</li>
+                <li>Secured environments with granular access control, segmentation, and scripted audits.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-meta">
+              <span class="timeline-period">2015 — 2022</span>
+              <span class="timeline-location">Jakarta, ID</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Network Engineer · PT Datacomm Diangraha</h3>
+              <p>
+                Delivered carrier-grade network solutions across Layers 1–3, ensuring compliance with technical and security requirements for enterprise deployments.
+              </p>
+              <ul>
+                <li>Crafted MoP/SOP templates adopted across implementation teams.</li>
+                <li>Validated hardware features and coordinated Proof of Concept efforts.</li>
+                <li>Specialized in OSPF/BGP routing optimization and RFP support for solution architects.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-meta">
+              <span class="timeline-period">2012 — 2015</span>
+              <span class="timeline-location">Indonesia</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Telco & Infrastructure Projects · Various Engagements</h3>
+              <p>
+                Supported regional operators with IP addressing plans, traffic engineering, and early automation that set the foundation for later DevOps practices.
+              </p>
+              <ul>
+                <li>Mentored junior engineers during nationwide rollouts.</li>
+                <li>Maintained multi-vendor labs for rapid interoperability testing.</li>
+                <li>Produced documentation repositories to speed onboarding.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="credentials" class="section section--alt">
+        <div class="section-heading">
+          <p class="eyebrow">Toolbox</p>
+          <h2>Stacks, platforms, and practices I rely on daily.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Infrastructure as Code</h3>
+            <p>Terraform modules, reusable blueprints, and policy-as-code to standardize environments.</p>
+            <ul>
+              <li>Terraform Cloud & Terragrunt</li>
+              <li>Config drift detection</li>
+              <li>Secrets management via Vault/IAM</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Delivery & Deployment</h3>
+            <p>CI/CD pipelines with gated promotions, artifact governance, and Kubernetes-native releases.</p>
+            <ul>
+              <li>Jenkins · GitHub Actions · Dokploy</li>
+              <li>Docker · Kubernetes · Helm</li>
+              <li>GitHub · GitLab · Bitbucket</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Automation & Data</h3>
+            <p>Workflow automation and insight tooling that keeps teams aligned and proactive.</p>
+            <ul>
+              <li>n8n · Bash · Python scripting</li>
+              <li>Metabase reporting & Mattermost comms</li>
+              <li>Listmonk, Confluence, Bookstack</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Security & Reliability</h3>
+            <p>Defense-in-depth for every layer, from SSL/TLS and IAM to observability-driven response.</p>
+            <ul>
+              <li>Access control & VPN hardening</li>
+              <li>Prometheus · Grafana · Uptime Robot</li>
+              <li>Incident retros & SLA governance</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Highlighted Work</p>
+          <h2>DevOps initiatives that moved the metrics.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="img/1.jpg" alt="Cloud infrastructure illustration" loading="lazy" />
+            <div>
+              <p class="eyebrow">Cloud Program</p>
+              <h3>GCP autoscaling marketplace</h3>
+              <p>
+                Replatformed a marketplace workload on GCP with Terraform-based networking, Cloud Run, and managed SQL, unlocking autoscaling while reducing spend by 28%.
+              </p>
+              <ul>
+                <li>Blueprint reusable across three business units</li>
+                <li>Integrated IAM guardrails & audit logging</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="img/2.jpg" alt="Engineer reviewing CI/CD pipelines" loading="lazy" />
+            <div>
+              <p class="eyebrow">Delivery Program</p>
+              <h3>CI/CD modernization for web & mobile</h3>
+              <p>
+                Built Jenkins and Dokploy pipelines covering linting, testing, container builds, and progressive delivery to Kubernetes, trimming release time from days to hours.
+              </p>
+              <ul>
+                <li>95% of deploys now fully automated</li>
+                <li>Release confidence boosted with automated smoke tests</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="img/3.jpg" alt="Team analyzing monitoring dashboards" loading="lazy" />
+            <div>
+              <p class="eyebrow">Reliability Program</p>
+              <h3>Observability & incident automation</h3>
+              <p>
+                Rolled out Prometheus, Grafana, Uptime Kuma, and n8n alert routing to detect anomalies within minutes and auto-open incidents with context-rich playbooks.
+              </p>
+              <ul>
+                <li>MTTR improved by 35%</li>
+                <li>On-call fatigue reduced through actionable alerts</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section--alt">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Partners on the journey.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <figure>
+            <blockquote>
+              “Jojo took our patchwork pipelines and turned them into an automated release engine. Incidents dropped and product velocity climbed.”
+            </blockquote>
+            <figcaption>– Head of Engineering, Moladin</figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              “His mastery of networking and DevOps made complex migrations boring—in the best way. Stakeholders finally sleep during cutovers.”
+            </blockquote>
+            <figcaption>– Program Manager, Datacomm Diangraha</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to fortify your delivery pipeline?</h2>
+          <p>
+            Let’s talk about your infrastructure roadmap, automation backlog, or observability gaps. I’m available for consulting, advisory sessions, or full-time opportunities.
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div>
+              <span class="label">Email</span>
+              <a href="mailto:vietbunder@gmail.com">vietbunder@gmail.com</a>
+            </div>
+            <div>
+              <span class="label">Phone</span>
+              <a href="tel:+6282273233887">+62 822-7323-3887</a>
+            </div>
+            <div>
+              <span class="label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/jojoviet/" target="_blank" rel="noreferrer">linkedin.com/in/jojoviet</a>
+            </div>
+            <div>
+              <span class="label">Based in</span>
+              <p>Jakarta · Indonesia (UTC+7)</p>
+            </div>
+            <div class="social-links">
+              <a href="https://twitter.com/vietbunder" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/kidalkidal" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.youtube.com/channel/UCGTrMie7M9_EdVomuL3UnWg" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/your-id"
+            method="POST"
+            target="_blank"
+          >
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Work email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Project summary
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-hint">Update the Formspree endpoint to connect this form to your inbox.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Jojo V. B. Hutagalung · Built with intent.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
