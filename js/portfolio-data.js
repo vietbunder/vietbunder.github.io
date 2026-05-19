@@ -146,20 +146,6 @@ export const portfolio = {
         'Mentored engineers and reported utilization, capability development, and verification progress.',
       ],
     },
-    {
-      period: '2012 - 2015',
-      company: 'Telco & Infrastructure Engagements',
-      role: 'Network / Infrastructure Engineer',
-      location: 'Indonesia',
-      summary:
-        'Supported regional operators with IP addressing, routing plans, interoperability testing, and technical documentation.',
-      impact: ['IP planning', 'Lab validation', 'Rollout support'],
-      bullets: [
-        'Maintained multi-vendor labs for rapid interoperability testing.',
-        'Produced documentation repositories to accelerate onboarding and project handovers.',
-        'Supported traffic engineering and early automation work that shaped later DevOps practices.',
-      ],
-    },
   ],
   projects: [
     {
