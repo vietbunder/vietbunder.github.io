@@ -188,10 +188,16 @@ export const portfolio = {
   credentials: {
     education: [
       {
-        title: 'Del Institute of Technology',
-        meta: 'Information technology professional foundation',
+        title: 'University of Bina Nusantara',
+        meta: 'Bachelor Degree - S1 / Information System / 2017 - 2019',
         body:
-          'Built the technical base that grew into network engineering, cloud operations, and DevOps delivery work.',
+          'Studied information systems with a focus on aligning technology, business processes, and digital platform delivery.',
+      },
+      {
+        title: 'Del Institute of Technology',
+        meta: 'Associate Degree - D3 / Network Engineering / 2012 - 2015',
+        body:
+          'Built a network engineering foundation across infrastructure, routing, and operational practices.',
       },
     ],
     certifications: [
