@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud autoscaling infrastructure visual</title>
+  <desc id="desc">Abstract cloud platform nodes with autoscaling rings and deployment paths.</desc>
+  <defs>
+    <radialGradient id="bg" cx="62%" cy="36%" r="78%">
+      <stop offset="0" stop-color="#1d5f69"/>
+      <stop offset="0.42" stop-color="#121a2b"/>
+      <stop offset="1" stop-color="#06080f"/>
+    </radialGradient>
+    <linearGradient id="mint" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#75f4d8"/>
+      <stop offset="1" stop-color="#f4bd6b"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8da8ff"/>
+      <stop offset="1" stop-color="#75f4d8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 164h1200M0 328h1200M0 492h1200M0 656h1200"/>
+    <path d="M150 0v900M300 0v900M450 0v900M600 0v900M750 0v900M900 0v900M1050 0v900"/>
+  </g>
+  <g transform="translate(600 440)" fill="none" stroke-linecap="round">
+    <ellipse rx="365" ry="142" stroke="#8da8ff" stroke-width="8" opacity="0.38" transform="rotate(-18)"/>
+    <ellipse rx="300" ry="110" stroke="#75f4d8" stroke-width="5" opacity="0.28" transform="rotate(24)"/>
+    <ellipse rx="420" ry="172" stroke="#ff719d" stroke-width="3" opacity="0.2" transform="rotate(8)"/>
+  </g>
+  <g transform="translate(600 440)">
+    <polygon points="0,-156 135,-78 135,78 0,156 -135,78 -135,-78" fill="#102033" stroke="#75f4d8" stroke-width="3"/>
+    <polygon points="0,-100 86,-50 86,50 0,100 -86,50 -86,-50" fill="#162f3d" stroke="#8da8ff" stroke-width="2" opacity="0.82"/>
+    <circle r="42" fill="url(#mint)" filter="url(#glow)"/>
+    <path d="M-136-78 0 0 136-78M-136 78 0 0 136 78M0-156v312" stroke="#ffffff" stroke-width="2" opacity="0.24"/>
+  </g>
+  <g fill="#f4bd6b" filter="url(#glow)">
+    <circle cx="270" cy="354" r="18"/>
+    <circle cx="326" cy="595" r="12"/>
+    <circle cx="887" cy="309" r="15"/>
+    <circle cx="958" cy="554" r="20"/>
+    <circle cx="756" cy="692" r="12"/>
+  </g>
+  <g stroke="#75f4d8" stroke-width="3" opacity="0.56" fill="none">
+    <path d="M270 354 464 363 600 440 756 692 958 554"/>
+    <path d="M326 595 600 440 887 309"/>
+  </g>
+  <g transform="translate(116 120)" opacity="0.95">
+    <rect width="260" height="104" rx="18" fill="#0b101d" stroke="#ffffff" opacity="0.74"/>
+    <path d="M54 66c-23 0-38-12-38-30 0-15 12-27 28-28 8-17 25-27 45-27 25 0 45 15 51 37 17 0 31 11 31 26 0 14-12 22-28 22z" transform="translate(24 16) scale(.82)" fill="url(#blue)"/>
+    <g transform="translate(104 36)" stroke="#75f4d8" stroke-width="8" stroke-linecap="round">
+      <path d="M0 24h104"/>
+      <path d="M76 0l28 24-28 24"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">CI/CD pipeline visual</title>
+  <desc id="desc">Abstract delivery pipeline with stages, containers, and release flow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111d"/>
+      <stop offset="0.52" stop-color="#171729"/>
+      <stop offset="1" stop-color="#07080f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#75f4d8"/>
+      <stop offset="0.5" stop-color="#8da8ff"/>
+      <stop offset="1" stop-color="#f4bd6b"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+    <path d="M120 0v900M300 0v900M480 0v900M660 0v900M840 0v900M1020 0v900"/>
+    <path d="M0 180h1200M0 360h1200M0 540h1200M0 720h1200"/>
+  </g>
+  <path d="M155 466h850" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" opacity="0.32" filter="url(#glow)"/>
+  <g fill="#0d1422" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2">
+    <rect x="116" y="342" width="184" height="248" rx="20"/>
+    <rect x="354" y="298" width="184" height="336" rx="20"/>
+    <rect x="592" y="342" width="184" height="248" rx="20"/>
+    <rect x="830" y="298" width="184" height="336" rx="20"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M174 425h64l-36 36 36 36h-64" stroke="#75f4d8" stroke-width="16"/>
+    <path d="M414 402h64M414 456h64M414 510h64" stroke="#8da8ff" stroke-width="14"/>
+    <path d="M652 404l34 34 48-62M652 492l34 34 48-62" stroke="#75f4d8" stroke-width="13"/>
+    <path d="M890 514c74-20 98-70 76-148 58 52 68 126-76 148z" stroke="#f4bd6b" stroke-width="13" fill="#f4bd6b" fill-opacity="0.18"/>
+  </g>
+  <g fill="#75f4d8" filter="url(#glow)">
+    <circle cx="300" cy="466" r="13"/>
+    <circle cx="538" cy="466" r="13"/>
+    <circle cx="776" cy="466" r="13"/>
+    <circle cx="1014" cy="466" r="13"/>
+  </g>
+  <g transform="translate(184 672)" opacity="0.82">
+    <rect width="832" height="64" rx="16" fill="#101827" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="24" y="22" width="236" height="20" rx="10" fill="#75f4d8" opacity="0.82"/>
+    <rect x="286" y="22" width="170" height="20" rx="10" fill="#8da8ff" opacity="0.72"/>
+    <rect x="482" y="22" width="296" height="20" rx="10" fill="#f4bd6b" opacity="0.72"/>
+  </g>
+</svg>

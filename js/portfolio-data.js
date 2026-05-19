@@ -1,6 +1,6 @@
 export const portfolio = {
   person: {
-    name: 'Jojo V. B. Hutagalung',
+    name: 'Jojo Hutagalung',
     shortName: 'Jojo Hutagalung',
     role: 'DevOps Engineer',
     employer: 'PT Moladin Digital Indonesia',
@@ -12,7 +12,7 @@ export const portfolio = {
     twitter: 'https://twitter.com/vietbunder',
     facebook: 'https://www.facebook.com/kidalkidal',
     youtube: 'https://www.youtube.com/channel/UCGTrMie7M9_EdVomuL3UnWg',
-    portrait: 'img/profile.jpg',
+    portrait: 'img/profile.png',
   },
   nav: [
     { label: 'About', target: 'about' },
@@ -24,7 +24,7 @@ export const portfolio = {
   ],
   hero: {
     eyebrow: 'DevOps Engineer / Cloud Reliability / Network Automation',
-    headline: 'Jojo V. B. Hutagalung',
+    headline: 'Jojo Hutagalung',
     role: 'DevOps Engineer building reliable cloud delivery systems.',
     tagline:
       'I design Terraform-first infrastructure, automate CI/CD release paths, and wire observability into production platforms so product teams can ship with confidence.',
@@ -169,7 +169,7 @@ export const portfolio = {
       summary:
         'Replatformed marketplace workloads with Terraform-managed networking, Cloud Run, and managed SQL to unlock autoscaling and cleaner environment governance.',
       stack: ['GCP', 'Terraform', 'Cloud Run', 'Managed SQL', 'IAM'],
-      image: 'img/8.jpg',
+      image: 'img/project-cloud-autoscaling.svg',
     },
     {
       title: 'CI/CD Modernization',
@@ -178,7 +178,7 @@ export const portfolio = {
       summary:
         'Built Jenkins, GitHub Actions, and Dokploy pipelines for linting, testing, container builds, and progressive delivery to Kubernetes-backed environments.',
       stack: ['Jenkins', 'GitHub Actions', 'Dokploy', 'Kubernetes', 'Docker'],
-      image: 'img/7.jpg',
+      image: 'img/project-cicd-pipeline.svg',
     },
     {
       title: 'Incident Automation Hub',
@@ -187,7 +187,7 @@ export const portfolio = {
       summary:
         'Rolled out Prometheus, Grafana, Uptime Kuma, and n8n alert workflows to detect anomalies and open response paths with useful operational context.',
       stack: ['Prometheus', 'Grafana', 'Uptime Kuma', 'n8n', 'Runbooks'],
-      image: 'img/1.jpg',
+      image: 'img/project-observability-hub.svg',
     },
     {
       title: 'Hybrid Network Guardrails',
@@ -196,7 +196,7 @@ export const portfolio = {
       summary:
         'Standardized routing, VPN, and segmentation practices across public cloud and private infrastructure so releases inherit secure connectivity by default.',
       stack: ['BGP', 'OSPF', 'VPN', 'VPC Peering', 'Access Control'],
-      image: 'img/2.jpg',
+      image: 'img/project-hybrid-network.svg',
     },
   ],
   credentials: {
